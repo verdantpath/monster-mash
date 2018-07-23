@@ -24,4 +24,11 @@ $(document).ready(function() {
       noseclix = 0;
     }
   });
+  $('#mouth').click(function() {
+    if (noseclix < 9) {
+      noseclix += 1;
+    } else {
+      noseclix = 0;
+    }
+  });
 });
