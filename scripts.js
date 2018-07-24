@@ -31,4 +31,5 @@ $(document).ready(function() {
       noseclix = 0;
     }
   });
+  $('#lightning1').fadeIn(250).fadeOut(250);
 });
