@@ -41,5 +41,15 @@ $(document).ready(function() {
     $('#lightning1').fadeIn(250).fadeOut(250);
     setTimeout('lightning_one()', t);
   };
-  
+
+  function lightning_two(t) {
+    $('#lightning2').fadeIn(250).fadeOut(250);
+    setTimeout('lightning_two()', t);
+  }
+
+  function lightning_three(t) {
+    $('#lightning3').fadeIn(250).fadeOut(250);
+    setTimeout('lightning_three()', t);
+  }
+
 });
