@@ -1,8 +1,10 @@
 $(document).ready(function() {
+
   var headclix = 0;
   var eyeclix = 0;
   var noseclix = 0;
   var mouthclix = 0;
+
   $('#head').click(function() {
     if (headclix < 9) {
       headclix += 1;
@@ -10,6 +12,7 @@ $(document).ready(function() {
       headclix = 0;
     }
   });
+
   $('#eyes').click(function() {
     if (eyeclix < 9) {
       eyeclix += 1;
@@ -17,6 +20,7 @@ $(document).ready(function() {
       eyeclix = 0;
     }
   });
+
   $('#nose').click(function() {
     if (noseclix < 9) {
       noseclix += 1;
@@ -24,6 +28,7 @@ $(document).ready(function() {
       noseclix = 0;
     }
   });
+
   $('#mouth').click(function() {
     if (noseclix < 9) {
       noseclix += 1;
@@ -31,5 +36,10 @@ $(document).ready(function() {
       noseclix = 0;
     }
   });
-  $('#lightning1').fadeIn(250).fadeOut(250);
+
+  function lightning_one(t) {
+    $('#lightning1').fadeIn(250).fadeOut(250);
+    setTimeout('lightning_one()', t);
+  };
+  
 });
