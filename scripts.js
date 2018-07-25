@@ -5,6 +5,10 @@ $(document).ready(function() {
   var noseclix = 0;
   var mouthclix = 0;
 
+  lightning_one(4000);
+  lightning_two(5000);
+  lightning_three(7000);
+
   $('#head').click(function() {
     if (headclix < 9) {
       headclix += 1;
@@ -37,19 +41,19 @@ $(document).ready(function() {
     }
   });
 
-  function lightning_one(t) {
-    $('#lightning1').fadeIn(250).fadeOut(250);
-    setTimeout('lightning_one()', t);
-  };
-
-  function lightning_two(t) {
-    $('#lightning2').fadeIn(250).fadeOut(250);
-    setTimeout('lightning_two()', t);
-  }
-
-  function lightning_three(t) {
-    $('#lightning3').fadeIn(250).fadeOut(250);
-    setTimeout('lightning_three()', t);
-  }
-
 });
+
+function lightning_one(t) {
+  $('#container #lightning1').fadeIn(250).fadeOut(250);
+  setTimeout('lightning_one()', t);
+};
+
+function lightning_two(t) {
+  $('#lightning2').fadeIn(250).fadeOut(250);
+  setTimeout('lightning_two()', t);
+}
+
+function lightning_three(t) {
+  $('#lightning3').fadeIn(250).fadeOut(250);
+  setTimeout('lightning_three()', t);
+}
