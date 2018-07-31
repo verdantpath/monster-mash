@@ -55,5 +55,5 @@ function lightning_two() {
 
 function lightning_three() {
   $('#container #lightning3').fadeIn(250).fadeOut(250);
-  setTimeout('lightning_three()', 7000);
+  setTimeout('lightning_three()', 8000);
 };
