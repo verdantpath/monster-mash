@@ -57,3 +57,6 @@ function lightning_three() {
   $('#container #lightning3').fadeIn(250).fadeOut(250);
   setTimeout('lightning_three()', 8000);
 };
+
+$('#head').animate({left:"-=367px"}, 500);
+$('#head').animate({left:"0px"}, 500);
