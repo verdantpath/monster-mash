@@ -41,6 +41,26 @@ $(document).ready(function() {
     }
   });
 
+  $('#head').click(function() {
+    if (headclix < 9) {
+      $(this).animate({left: "-=367px"}, 500),
+      headclix += 1;
+    } else {
+      $(this).anmiate({left: "0px"}, 500)
+      headclix = 0;
+    }
+  });
+
+  $("#eyes").click(function() {
+    if (eyeclix < 9) {
+      $(this).animate({left: "-=367px"}, 500);
+      eyeclix += 1;
+    } else {
+      $(this).animate({left: "0px"}, 500);
+      eyeclix = 0;
+    }
+  });
+
 });
 
 function lightning_one() {
