@@ -5,9 +5,9 @@ $(document).ready(function() {
   var noseclix = 0;
   var mouthclix = 0;
 
-  // lightning_one();
-  // lightning_two();
-  // lightning_three();
+  lightning_one();
+  lightning_two();
+  lightning_three();
 
   // $('#head').click(function() {
   //   if (headclix < 9) {
@@ -77,6 +77,7 @@ $(document).ready(function() {
       mouthclix += 1;
     } else {
       $(this).animate({left: "0px"}, 500);
+      mouthclix = 0;
     }
   });
 
