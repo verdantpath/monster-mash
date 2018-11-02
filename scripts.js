@@ -9,38 +9,7 @@ $(document).ready(function() {
   lightning_two();
   lightning_three();
 
-  // $('#head').click(function() {
-  //   if (headclix < 9) {
-  //     headclix += 1;
-  //   } else {
-  //     headclix = 0;
-  //   }
-  // });
-  //
-  // $('#eyes').click(function() {
-  //   if (eyeclix < 9) {
-  //     eyeclix += 1;
-  //   } else {
-  //     eyeclix = 0;
-  //   }
-  // });
-  //
-  // $('#nose').click(function() {
-  //   if (noseclix < 9) {
-  //     noseclix += 1;
-  //   } else {
-  //     noseclix = 0;
-  //   }
-  // });
-  //
-  // $('#mouth').click(function() {
-  //   if (noseclix < 9) {
-  //     noseclix += 1;
-  //   } else {
-  //     noseclix = 0;
-  //   }
-  // });
-  //
+
   $('#head').click(function() {
     if (headclix < 9) {
       $(this).animate({left: "-=367px"}, 500),
