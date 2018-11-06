@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
   var headclix = 0;
   var eyeclix = 0;
