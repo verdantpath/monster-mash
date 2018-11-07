@@ -70,7 +70,7 @@ window.onfocus = goLightning;
 window.onblur = stopLightning;
 
 function goLightning() {
-
+ setInterval();
 };
 
 function stopLightning() {
