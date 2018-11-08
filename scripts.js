@@ -74,5 +74,5 @@ function goLightning() {
 };
 
 function stopLightning() {
-  clearInterval();
+  clearInterval(); 
 };
