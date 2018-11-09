@@ -71,10 +71,10 @@ function lightning_three() {
 window.onfocus = goLightning;
 window.onblur = stopLightning;
 
-function goLightning() {
- setInterval();
-};
-
 function stopLightning() {
   clearInterval();
+};
+
+function goLightning() {
+ setInterval();
 };
