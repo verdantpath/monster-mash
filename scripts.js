@@ -5,7 +5,7 @@ $(function() {
   var noseclix = 0;
   var mouthclix = 0;
 
-  goLightning();
+
 
   lightning_one();
   lightning_two();
@@ -67,6 +67,8 @@ function lightning_three() {
   $('#container #lightning3').fadeIn(250).fadeOut(250);
   setTimeout('lightning_three()', 8000);
 };
+
+goLightning();
 
 window.onfocus = goLightning;
 window.onblur = stopLightning;
