@@ -5,8 +5,6 @@ $(function() {
   var noseclix = 0;
   var mouthclix = 0;
 
-
-
   lightning_one();
   lightning_two();
   lightning_three();
@@ -78,5 +76,5 @@ function stopLightning() {
 };
 
 function goLightning() {
- setInterval();
+  setInterval();
 };
