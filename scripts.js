@@ -58,12 +58,12 @@ function lightning_one() {
 
 function lightning_two() {
   $('#container #lightning2').fadeIn(250).fadeOut(250);
-  setTimeout('lightning_two()', 5000);
+  // setTimeout('lightning_two()', 5000);
 };
 
 function lightning_three() {
   $('#container #lightning3').fadeIn(250).fadeOut(250);
-  setTimeout('lightning_three()', 8000);
+  // setTimeout('lightning_three()', 8000);
 };
 
 goLightning();
