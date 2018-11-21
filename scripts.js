@@ -53,7 +53,7 @@ $(function() {
 
 function lightning_one() {
   $('#container #lightning1').fadeIn(250).fadeOut(250);
-  setTimeout('lightning_one()', 4000);
+  // setTimeout('lightning_one()', 4000);
 };
 
 function lightning_two() {
@@ -72,8 +72,9 @@ window.onblur = stopLightning;
 window.onfocus = goLightning;
 
 function stopLightning() {
-
-
+  window.onfocus(int1);
+  window.onfocus(int2);
+  window.onfocus(int3);
 };
 
 
