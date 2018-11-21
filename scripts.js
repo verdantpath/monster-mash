@@ -72,9 +72,9 @@ window.onblur = stopLightning;
 window.onfocus = goLightning;
 
 function stopLightning() {
-  window.onfocus(int1);
-  window.onfocus(int2);
-  window.onfocus(int3);
+  window.clearInterval(int1);
+  window.clearInterval(int2);
+  window.clearInterval(int3);
 };
 
 
