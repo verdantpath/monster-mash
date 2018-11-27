@@ -15,6 +15,12 @@ $(function() {
     moveMe(0, this);
   });
 
+  $('#eyes').click( function() {
+    moveMe(1, this);
+  });
+
+  
+
   // $('#head').click(function() {
   //   if (headclix < 9) {
   //     $(this).animate({left: "-=367px"}, 500),
