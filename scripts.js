@@ -9,6 +9,8 @@ $(function() {
   lightning_two();
   lightning_three();
 
+  var clix = [0,0,0,0];
+
   // $('#head').click(function() {
   //   if (headclix < 9) {
   //     $(this).animate({left: "-=367px"}, 500),
