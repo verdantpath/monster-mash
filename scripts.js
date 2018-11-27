@@ -9,7 +9,11 @@ $(function() {
   lightning_two();
   lightning_three();
 
-  var clix = [0,0,0,0];
+  var clix = [0,0,0,0]; // head, eyes, nose, mouth
+
+  $('#head').click( function() {
+    moveMe(0, this);
+  });
 
   // $('#head').click(function() {
   //   if (headclix < 9) {
