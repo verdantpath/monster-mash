@@ -19,6 +19,14 @@ $(function() {
     moveMe(1, this);
   });
 
+  $('#nose').click( function() {
+    moveMe(2, this);
+  });
+
+  $('#mouth').click( function() {
+    moveMe(3, this);
+  });
+
   
 
   // $('#head').click(function() {
