@@ -27,7 +27,15 @@ $(function() {
     moveMe(3, this);
   });
 
-  
+  function moveMe(i, obj) {
+    if(clix[i] < 9) {
+      $(obj).animate({left:"-=367px"}, 500);
+      clix[i] += 1;
+    } else {
+      clix[i] = 0;
+      $(obj).animate({left:"0px"}, 500);
+    }
+  }
 
   // $('#head').click(function() {
   //   if (headclix < 9) {
