@@ -1,9 +1,9 @@
 $(function() {
 
-  var headclix = 0;
-  var eyeclix = 0;
-  var noseclix = 0;
-  var mouthclix = 0;
+  // var headclix = 0;
+  // var eyeclix = 0;
+  // var noseclix = 0;
+  // var mouthclix = 0;
 
   lightning_one();
   lightning_two();
@@ -13,18 +13,23 @@ $(function() {
 
   $('#head').click( function() {
     moveMe(0, this);
+    console.log(clix);
   });
 
   $('#eyes').click( function() {
     moveMe(1, this);
+    console.log(clix);
   });
 
   $('#nose').click( function() {
     moveMe(2, this);
+    console.log(clix);
   });
 
   $('#mouth').click( function() {
     moveMe(3, this);
+    console.log(clix);
+    console.log(this);
   });
 
   function moveMe(i, obj) {
