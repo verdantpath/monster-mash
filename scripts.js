@@ -42,7 +42,7 @@ $(function() {
     }
   }
 
-  var current_position = clix[index];
+  // var current_position = clix[index];
 
   var w = 367; // width of the face strip
   var m = 10; // number of the monster face strip we're on
@@ -55,8 +55,8 @@ $(function() {
     return my_random_num;
   }
 
-  num = 10;
-  getRandom(num);
+  // num = 10;
+  // getRandom(num);
 
   function randomize() {
     $('.face').each(function(index) {
