@@ -44,6 +44,14 @@ $(function() {
 
   var current_position = clix[index];
 
+  function getRandom(num) {
+    var my_random_num = Math.floor(Math.random() * num);
+    return my_random_num;
+  }
+
+  num = 10;
+  getRandom(num);
+
 });
 
 function lightning_one() {
