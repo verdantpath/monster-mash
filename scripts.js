@@ -42,7 +42,6 @@ $(function() {
     }
   }
 
-  // var current_position = clix[index];
 
   var w = 367; // width of the face strip
   var m = 10; // number of the monster face strip we're on
