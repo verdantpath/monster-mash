@@ -55,9 +55,6 @@ $(function() {
     return my_random_num;
   }
 
-  // num = 10;
-  // getRandom(num);
-
   function randomize() {
     $('.face').each(function(index) {
       var target_position = getRandom(m);
